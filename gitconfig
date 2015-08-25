@@ -20,3 +20,5 @@
 	st = status
 	ci = commit
 	br = branch
+[credential]
+	helper = osxkeychain
