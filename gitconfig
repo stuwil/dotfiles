@@ -1,0 +1,22 @@
+[user]
+	name = Stuart Williams
+	email = stuart@sidereal.ca
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[core]
+	editor = subl -n -w
+	excludesfile = /Users/stuart/.gitignore_global
+[color]
+	ui = auto
+	status = auto
+	branch = auto
+	diff = auto
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
